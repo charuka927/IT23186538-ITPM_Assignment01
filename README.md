@@ -7,13 +7,13 @@ Year 3 | Semester 1
 
 ---
 
-# Student Information
+## Student Information
 Registration Number: IT23186538  
 Assignment Type: Individual Assignment
 
 ---
 
-# Project Overview
+## Project Overview
 This repository contains the Playwright-based automated testing project
 developed for Assignment 1 of the IT3040 – IT Project Management module.
 
@@ -32,7 +32,7 @@ https://github.com/charuka927/IT23186538-ITPM_Assignment01.git
 
 ---
 
-# Assignment Objectives
+## Assignment Objectives
 - Assess the accuracy of Singlish to Sinhala transliteration
 - Identify scenarios where the system behaves correctly and incorrectly
 - Test different sentence structures and daily language usage
@@ -43,9 +43,9 @@ https://github.com/charuka927/IT23186538-ITPM_Assignment01.git
 
 ---
 
-# Scope of Testing
+## Scope of Testing
 
-# Included
+### Included
 - Positive Functional Test Scenarios (24)
 - Negative Functional Test Scenarios (10)
 - UI-related Test Scenarios
@@ -63,14 +63,14 @@ https://github.com/charuka927/IT23186538-ITPM_Assignment01.git
 - Punctuation, numbers, dates, and formatting
 - Informal and colloquial expressions
 
-# Excluded
+### Excluded
 - Backend API testing
 - Performance testing
 - Security testing
 
 ---
 
-# Technology Stack
+### Technology Stack
 - Automation Framework: Playwright
 - Programming Language: TypeScript
 - Runtime Environment: Node.js
@@ -79,7 +79,7 @@ https://github.com/charuka927/IT23186538-ITPM_Assignment01.git
 
 ---
 
-# Project Structure
+### Project Structure
 IT23186538-ITPM_Assignment01/
 │
 ├── tests/
@@ -97,7 +97,7 @@ IT23186538-ITPM_Assignment01/
 
 ---
 
-# Prerequisites
+### Prerequisites
 Before running the project, ensure the following are installed:
 - Node.js (version 16 or higher)
 - npm
@@ -105,14 +105,14 @@ Before running the project, ensure the following are installed:
 
 ---
 
-# Installation Instructions
+### Installation Instructions
 1. Clone the public GitHub repository:
 git clone https://github.com/charuka927/IT23186538-ITPM_Assignment01.git
 
 
 ---
 
-# Test Case Documentation
+### Test Case Documentation
 - All test cases are documented using the Excel template provided in Appendix 2
 - Test case IDs strictly follow the required naming conventions:
   - Pos_Fun_xxxx – Positive Functional Test Cases
@@ -125,7 +125,7 @@ git clone https://github.com/charuka927/IT23186538-ITPM_Assignment01.git
 
 ---
 
-# Important Notes
+### Important Notes
 - The system supports standard Singlish to Sinhala transliteration only
 - Chat-style shorthand or informal abbreviations (e.g., “Thx”, “u”, “gr8”)
   are not used as negative functional test cases
@@ -134,7 +134,7 @@ git clone https://github.com/charuka927/IT23186538-ITPM_Assignment01.git
 
 ---
 
-# Submission Information
+### Submission Information
 - All files are renamed using the registration number (IT23186538)
 - Required files are placed inside a folder named IT23186538
 - The folder is zipped and submitted via CourseWeb
@@ -142,7 +142,7 @@ git clone https://github.com/charuka927/IT23186538-ITPM_Assignment01.git
 
 ---
 
-# Conclusion
+### Conclusion
 This project demonstrates the ability to independently analyze a real-world
 application, design and implement an automated testing strategy using
 Playwright, and systematically document functional and UI-related test
