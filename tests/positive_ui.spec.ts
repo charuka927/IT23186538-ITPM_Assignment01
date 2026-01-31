@@ -3,21 +3,21 @@ import { test, expect } from "@playwright/test";
 const testCases = [
   {
     id: "Pos_UI_0001",
-    name: "Real-time conversion",
-    input: "mama pansalata enavaa",
-    expected: "මම පන්සලට එනවා",
+    name: "Verify UI accepts short valid Singlish input",
+    input: "budhu saraNayi",
+    expected: "බුදු සරණයි",
   },
   {
     id: "Pos_UI_0002",
-    name: "Clear input",
-    input: "mama kiri bonavaa",
-    expected: "",
+    name: "Verify UI handles medium-length valid input",
+    input: "oyaata kohomadha kiyala dhaenaganna puluvandha",
+    expected: "ඔයාට කොහොමද කියල දැනගන්න පුලුවන්ද",
   },
   {
     id: "Pos_UI_0003",
-    name: "Font rendering",
-    input: "oyaata kaesilladha?",
-    expected: "ඔයාට කැසිල්ලද?",
+    name: "Verify UI handles medium-length valid input",
+    input: "mama campus yanna balaaporoththu venavaa",
+    expected: "මම campus යන්න බලාපොරොත්තු වෙනවා",
   },
 ];
 

@@ -3,21 +3,21 @@ import { test, expect } from "@playwright/test";
 const testCases = [
   {
     id: "Neg_UI_0001",
-    name: "Long UI lag",
-    input: "gavayaa gavayaa gavayaa gavayaa gavayaa",
-    expected: "ගවයා ගවයා ගවයා ගවයා ගවයා",
+    name: "Verify UI behavior for empty input",
+    input: "",
+    expected: "No output displayed",
   },
   {
     id: "Neg_UI_0002",
-    name: "Overflow handling",
-    input: "gavayaa ".repeat(12),
-    expected: "ගවයා ".repeat(12),
+    name: "Verify UI response to unsupported characters",
+    input: "$$$ ",
+    expected: "Invalid input ",
   },
   {
     id: "Neg_UI_0003",
-    name: "Page reload behavior",
-    input: "mama gahata naginavaa",
-    expected: "Output resets",
+    name: "Verify UI behavior when input contains only numbers",
+    input: "123456789",
+    expected: "No valid output generated",
   },
 ];
 
